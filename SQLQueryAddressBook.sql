@@ -41,3 +41,9 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 
 SELECT * FROM ADDRESS_BOOK_SERVICE where city='Visakhapatnam';
 SELECT * FROM ADDRESS_BOOK_SERVICE where StateName='Telengana';
+
+----UC7---
+----Size of ADB by City or state----
+select count(City) as City_count from ADDRESS_BOOK_SERVICE;
+select count(StateName) as State_count from ADDRESS_BOOK_SERVICE;
+SELECT * FROM ADDRESS_BOOK_SERVICE;
