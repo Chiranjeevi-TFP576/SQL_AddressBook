@@ -35,3 +35,9 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 ----Delete a person-----
 Delete ADDRESS_BOOK_SERVICE where FirstName= 'Priyanka';
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+------UC6------
+---Reterive the data using city or State---
+
+SELECT * FROM ADDRESS_BOOK_SERVICE where city='Visakhapatnam';
+SELECT * FROM ADDRESS_BOOK_SERVICE where StateName='Telengana';
