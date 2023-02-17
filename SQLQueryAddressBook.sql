@@ -15,3 +15,12 @@ Phone varchar(25),
 Email varchar(25)
 );
  SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+ -----UC3-----
+ ----INSERT CONTACT IN ADDRESSBOOK------
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Chiranjeevi','Peyyela','Visakhapatnam','AndhraPradesh','531066','7989189528','chiranjeevi@gmail.com');
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Nikitha','Bolkar','Mumbai','Maharashtra','560085','954645345','ankitakhair@gmail.com');
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Sandesh','Nikam','Pune','Maharashtra','8375','76378434534','sandesh@gmail.com');
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('rahul','saner','nashik','Maharashtra','574895','09384903','snaehal@gmail.com');
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Priyanka','Ruhal','hyderabad','Telangana','455454','0938490334','priyanka@gmail.com');
+SELECT * FROM ADDRESS_BOOK_SERVICE;
