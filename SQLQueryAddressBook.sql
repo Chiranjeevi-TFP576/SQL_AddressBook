@@ -24,3 +24,9 @@ INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Sandesh','Nikam','Pune','Maharashtra','
 INSERT INTO ADDRESS_BOOK_SERVICE VALUES('rahul','saner','nashik','Maharashtra','574895','09384903','snaehal@gmail.com');
 INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Priyanka','Ruhal','hyderabad','Telangana','455454','0938490334','priyanka@gmail.com');
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+---UC4---------
+-----Edit Existing Contact-------
+update ADDRESS_BOOK_SERVICE set city ='VSP',Phone=9877161432,Email='Reventh143@gmail.com' ,StateName='Hyderabad',FirstName= 'Reventh'where LastName ='Nikam' ; 
+update ADDRESS_BOOK_SERVICE set FirstName ='Suresh',LastName='Prabu',StateName='Telengana',city='Hyd',Phone=9877161432,Email='Suresh143@gmail.com' where Zip=574895;  
+SELECT * FROM ADDRESS_BOOK_SERVICE;
