@@ -30,3 +30,8 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 update ADDRESS_BOOK_SERVICE set city ='VSP',Phone=9877161432,Email='Reventh143@gmail.com' ,StateName='Hyderabad',FirstName= 'Reventh'where LastName ='Nikam' ; 
 update ADDRESS_BOOK_SERVICE set FirstName ='Suresh',LastName='Prabu',StateName='Telengana',city='Hyd',Phone=9877161432,Email='Suresh143@gmail.com' where Zip=574895;  
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+---UC5----
+----Delete a person-----
+Delete ADDRESS_BOOK_SERVICE where FirstName= 'Priyanka';
+SELECT * FROM ADDRESS_BOOK_SERVICE;
