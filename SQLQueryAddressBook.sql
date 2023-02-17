@@ -49,7 +49,7 @@ select count(StateName) as State_count from ADDRESS_BOOK_SERVICE;
 SELECT * FROM ADDRESS_BOOK_SERVICE;
 
 ------UC8-----
-----Sorte Alphabetically----
+--Sorte Alphabetically--
 SELECT * FROM ADDRESS_BOOK_SERVICE order by FirstName;
 SELECT * FROM ADDRESS_BOOK_SERVICE order by LastName;
 SELECT * FROM ADDRESS_BOOK_SERVICE;
