@@ -53,3 +53,8 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 SELECT * FROM ADDRESS_BOOK_SERVICE order by FirstName;
 SELECT * FROM ADDRESS_BOOK_SERVICE order by LastName;
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+----UC9-Ability to identify each Address Book with name and Type----
+alter table ADDRESS_BOOK_SERVICE  add AddressBook_Name varchar(30),AddressBook_Type varchar(30);
+update ADDRESS_BOOK_SERVICE set AddressBook_Name = 'Family address book', AddressBook_Type = 'Family' where FirstName='Reventh';
+update ADDRESS_BOOK_SERVICE set AddressBook_Name = 'Family address book', AddressBook_Type = 'Friend' where FirstName='Suresh';
