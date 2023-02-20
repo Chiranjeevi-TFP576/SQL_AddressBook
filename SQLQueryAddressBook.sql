@@ -58,3 +58,8 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 alter table ADDRESS_BOOK_SERVICE  add AddressBook_Name varchar(30),AddressBook_Type varchar(30);
 update ADDRESS_BOOK_SERVICE set AddressBook_Name = 'Family address book', AddressBook_Type = 'Family' where FirstName='Reventh';
 update ADDRESS_BOOK_SERVICE set AddressBook_Name = 'Family address book', AddressBook_Type = 'Friend' where FirstName='Suresh';
+
+select * from ADDRESS_BOOK_SERVICE;
+-----UC10-Ability to get number of contact persons using count typ----
+select count(AddressBook_Type) from ADDRESS_BOOK_SERVICE where AddressBook_Type = 'Friend';
+select * from ADDRESS_BOOK_SERVICE;
