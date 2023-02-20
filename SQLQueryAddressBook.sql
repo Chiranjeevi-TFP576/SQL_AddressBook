@@ -62,4 +62,11 @@ update ADDRESS_BOOK_SERVICE set AddressBook_Name = 'Family address book', Addres
 select * from ADDRESS_BOOK_SERVICE;
 -----UC10-Ability to get number of contact persons using count typ----
 select count(AddressBook_Type) from ADDRESS_BOOK_SERVICE where AddressBook_Type = 'Friend';
+select count(AddressBook_Type) from ADDRESS_BOOK_SERVICE where AddressBook_Type = 'Family';
+select * from ADDRESS_BOOK_SERVICE;
+
+----------UC11-Ability to add person to both Friend and Family---------------------
+
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Eswar','Sgpv','Chennai','Tamilnadu','312425','70234651','eswar@gmail.com','Friends address book','Friends');
+INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Ramana','Mamidi','karnataka','Bengalore','234523','9011596342','Ramana@gmail.com','Family address book','Family');
 select * from ADDRESS_BOOK_SERVICE;
